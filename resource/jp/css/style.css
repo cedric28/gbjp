@@ -25,7 +25,11 @@ blockquote {
 /*
 	NEW ADDED CSS
 */
-
+.games{
+	display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
 .thumbnail-image{
 	width: 170px;
 }
@@ -8093,9 +8097,9 @@ a.product-button:hover {
 	transform: scale(1.05);
 }
 
-* + .product {
+/* * + .product {
 	margin-top: 30px;
-}
+} */
 
 * + .product-button {
 	margin-top: 10px;
