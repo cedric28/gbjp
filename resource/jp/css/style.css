@@ -25,6 +25,11 @@ blockquote {
 /*
 	NEW ADDED CSS
 */
+
+.thumbnail-image{
+	width: 200px;
+}
+
 .gbjp-header-title{
 	color: #A36918;
 }
@@ -8044,8 +8049,8 @@ a.product-button:hover {
 .product-content {
 	padding: 25px;
 	text-align: center;
-	background-color: #fff;
-	border: 1px solid #e1e1e1;
+	background: linear-gradient(#F8E4AD,#BF923D);
+	/* border: 1px solid #e1e1e1; */
 	border-top: 0;
 }
 
