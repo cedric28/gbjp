@@ -46,6 +46,24 @@ blockquote {
 	color: #A36918;
 }
 
+.footer-title{
+	background: -webkit-linear-gradient(#BF953F,#FCF6BA, #B38728,#FBF5B7,#AA771C);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-description{
+	background: -webkit-linear-gradient(#BF953F,#FCF6BA, #B38728,#FBF5B7,#AA771C);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-description-2{
+	background: -webkit-linear-gradient(#BF953F,#FCF6BA, #B38728,#FBF5B7,#AA771C);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /*
 	END OF NEW ADDED CSS
 */
