@@ -27,7 +27,7 @@ blockquote {
 */
 
 .thumbnail-image{
-	width: 200px;
+	width: 170px;
 }
 
 .gbjp-header-title{
@@ -438,12 +438,12 @@ p [style*='max-width'] {
 }
 
 .heading-component-title::before {
-	content: '';
+	content: "✭";
 	position: absolute;
-	top: 3px;
-	bottom: 3px;
+	top: 0;
+	bottom: 0;
 	left: 0;
-	border-left: 4px solid #3f90dc;
+	margin-right: 12px;
 	pointer-events: auto;
 }
 
@@ -452,6 +452,7 @@ p [style*='max-width'] {
 	min-height: inherit;
 	width: 0;
 	vertical-align: middle;
+	margin-left: 12px;
 }
 
 .heading-component-title .icon {
