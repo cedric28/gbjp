@@ -149,7 +149,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, [class*='heading-'] a {
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, [class*='heading-'] a:hover {
-	color: #3f90dc;
+	color: #fff;
 }
 
 h1,
@@ -14874,7 +14874,7 @@ html:not(.lt-ie10) .not-animated {
 
 .select2-results .select2-highlighted {
 	color: #fff;
-	background: #3f90dc;
+	background: #F2ECDC;
 }
 
 .select2-results li em {
@@ -15165,13 +15165,13 @@ disabled look for disabled choices in the results dropdown
 .select-minimal .select2-choice {
 	display: block;
 	padding: 4px 23px 4px 13px;
-	border: 1px solid #d1d1d1;
-	border-radius: 3px;
+	border: 1px solid #4A2A12;
+	/* border-radius: 3px; */
 }
 
 .select-minimal .select2-choice, .select-minimal .select2-choice:focus, .select-minimal .select2-choice:active, .select-minimal .select2-choice:hover {
 	color: #151515;
-	background: #edeff4;
+	background: #B29464;
 }
 
 .select-minimal .select2-arrow {
@@ -15194,7 +15194,7 @@ disabled look for disabled choices in the results dropdown
 
 .select-minimal-dropdown {
 	z-index: 1000;
-	background: #edeff4;
+	background: #B29464;
 }
 
 .select-minimal-dropdown .select2-results {
@@ -15203,11 +15203,11 @@ disabled look for disabled choices in the results dropdown
 }
 
 .select-minimal-dropdown .select2-highlighted {
-	background: #4395e1;
+	background: #F2ECDC;
 }
 
 .select-minimal-dropdown .select2-highlighted .select2-result-label {
-	color: #fff;
+	color: #151515;
 }
 
 .select-minimal-dropdown .select2-results > li {
@@ -15228,7 +15228,7 @@ disabled look for disabled choices in the results dropdown
 
 .select-minimal-dropdown.select2-drop-active {
 	white-space: normal;
-	border-color: #d1d1d1;
+	border-color: #4A2A12;;
 }
 
 /*
@@ -15639,7 +15639,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-static .rd-nav-item > .rd-navbar-submenu-toggle:hover {
-	color: #3f90dc;
+	color: #fff;
 }
 
 .rd-navbar-static .rd-nav-item > .rd-navbar-submenu {
