@@ -1,0 +1,50 @@
+html,body {
+    font-family: Meiryo,Arial, Helvetica, sans-serif;
+    background: url(../images/common/bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    margin:0;
+    padding:0;
+}
+
+img{
+    border:0px;
+}
+
+td {
+
+    line-height:0px;
+}
+
+.mb_id{
+    font-family: Meiryo, 'Oswald', sans-serif;
+    font-size:12px;
+    color:#19bbd3;
+}
+
+#machine_line_gab {
+
+    padding-top: 30px;
+}
+
+#machine_area {
+
+    padding-left: 20px;
+}
+
+.machine_seat {
+
+    padding-top: 10px;
+    padding-right: 7px;
+    float:left;
+}
+
+
+#btn_seat_lobby {
+
+    padding-top:30px;
+    padding-left:180px;
+    float:left;
+}

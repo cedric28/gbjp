@@ -1,0 +1,90 @@
+@charset "utf-8";
+@import url("../css/reset.css");
+
+/*body {
+	width:100%;
+	height:100%;
+	background:#000 url("../images/pop/bg_wrap.png") no-repeat center center;
+	background-size:100% 100%;
+}*/
+
+body {
+	/*width:100%;*/
+	background:#000 url("../../img/tile.jpg") center center !important;
+	/*background-size:100% 100%;*/
+}
+#pop_wrap {padding:30px 3px 0;}
+.scroll_box {overflow:hidden;margin-right:3px;overflow-y:scroll;}
+.two {height:460px;}
+
+.top_img {position:relative;float:left;margin:0 0 10px 10px;height:224px;}
+.top_img .page {position:absolute;bottom:12px;right:20px;}
+
+.game_box {position:relative;float:left;width:479px;height:243px;margin:0 0 10px 10px;background:url("../images/pop/bg_game_3.png") 0 0 no-repeat;}
+.game_box .title {position:absolute;top:8px;left:15px;width:100px;padding:7px 0 5px 33px;font-family:arial;font-size:16px;color:#fff;background:url("../images/pop/ico_bc.png") 0 0 no-repeat;}
+.game_box .d_name {position:absolute;bottom:60px;left:15px;width:113px;height:15px;z-index:1000;padding-top:5px;text-align:center;font-family:myriad pro;color:#fff;font-size:15px;line-height:12px;background:url("../images/pop/dim_name.png") 0 0 repeat;}
+.game_box .imgbox {position:absolute;top:43px;left:14px;width:113px;height:138px;}
+.game_box .imgbox img {margin:2px 0 0 1px;}
+.game_box .game {width:322px;height:140px;margin:44px 0 0 133px;}
+
+.game_type1 {background-color:#000;zoom:1;}
+.game_type1:after{display:block;clear:both;content:"";}
+.game_type1 li {float:left;width:22px;height:22px;margin:1px 0 0 1px;font-family:tahoma;font-size:14px;text-align:center;line-height:22px;color:#fff;font-weight:bold;background-color:#fff;}
+
+.game_type1 li.black {background-color:#000;}
+.game_type1 li.red {background-color:#a90000;}
+.game_type1 li.green {background-color:#00a930;}
+
+.game_type2 {height:130px;padding:4px 0;background-color:#fff;zoom:1;}
+.game_type2:after{display:block;clear:both;content:"";}
+.game_type2 li {float:left;background-color:#fff;}
+.game_type2 li .black,.game_type2 li .gray {width:100px;height:18px;padding:7px 0 7px 3px;}
+.game_type2 li.other {margin:0 6px 0 7px}
+.game_type2 li .black img,.game_type2 li .gray img {margin-right:-3px;}
+.game_type2 li .black {background-color:#000;}
+.game_type2 li .gray {background-color:#767676;}
+.game_type2 li .txt {color:#fff;font-size:10px;font-family:arial;}
+
+.btn_limit {overflow:hidden;margin:6px 0 0 7px;}
+.btn_limit li {float:left;width:85px;height:32px;margin-left:6px;background:url("../images/pop/limit_n_off.png") 0 0 no-repeat;}
+.btn_limit li.on {background:url("../images/pop/limit_n_on.png") 0 0 no-repeat;}
+.btn_limit li a {display:block;width:84px;height:28px;padding-top:4px;text-align:center;font-family:myriad pro;color:#fff;font-size:15px;line-height:26px;}
+
+
+.pop_lobby_h1 {text-align:center;}
+.pop_lobby_h1 img {width:261px;}
+.pop_lobby_h2 {margin:20px 0;text-align:center;}
+.pop_lobby_h2 img {width:193px;}
+
+
+
+/*FOR ROULETTE*/
+.txt_black {color:#000 !important;}
+.txt_red {color:#b70a0c !important;}
+
+.rl_box {height:105px;margin:10px 0;background-color:#fff;}
+
+.rl_left,.rl_mid,.rl_right {float:left;}
+.rl_left {}
+
+.rl_mid {}
+
+.rl_right {}
+
+.rollet {width:100px;margin:11px 0;padding:3px;font-size:10px;}
+.rollet .rl_tit,.rollet .rl_cnt,.rollet .rl_cnt {display:inline-block;}
+.rollet .rl_tit {width:30px;text-align:right;}
+.rollet .rl_cnt {}
+.rollet .rl_gf {}
+.rl_gf {display:inline-block;width:25px;height:10px;}
+.rl_gf .graph {display:inline-block;}
+.rl_black span {color:#000;}
+.rl_black .rl_gf .graph {background-color:#000;}
+.rl_green span {color:#2e5631;}
+.rl_green .rl_gf .graph {background-color:#2e5631;}
+.rl_red span {color:#b70a0c;}
+.rl_red .rl_gf .graph {background-color:#b70a0c;}
+.rl_violet span .graph {color:#7300e4;}
+.rl_violet .rl_gf .graph {background-color:#7300e4;}
+.rl_blue span {color:#2e8ad5}
+.rl_blue .rl_gf .graph {background-color:#2e8ad5;}

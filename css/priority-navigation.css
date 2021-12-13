@@ -1,0 +1,109 @@
+/* base Priority-Navigation styling */
+.toPrioritize {
+	font-size: 0;
+	padding: 0;
+	white-space: nowrap;
+	list-style-type: none;
+}
+
+.toPrioritize > li:first-of-type {
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #fff #ccc #999 #eee;  	
+}
+
+.toPrioritize > li {
+	font-size: 1rem;
+	display: inline-block;
+	white-space: nowrap;
+	text-align: center;
+	list-style-type: none;
+	vertical-align: middle;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #fff #ccc #999 #eee;  	
+}
+
+.toPrioritize > li a{
+	display: block;
+	text-decoration: none;
+	padding: .75em;
+	position: relative;
+	line-height: 1em;
+}
+
+.toPrioritize > li a:focus,
+.toPrioritize > li a:hover{
+	text-decoration: underline;
+}
+
+.toPrioritize li[data-priority="more"],
+.toPrioritize li[data-priority="more"],
+.toPrioritize.prioritized:not(.opened) > li[data-priority="less"],
+.toPrioritize.prioritized:not(.opened) > li[data-priority="0"]{
+	display: none;
+}
+
+.toPrioritize.prioritized.truncated > li[data-priority="more"]{
+	display: inline-block;
+}
+
+.toPrioritize:not(.opened) > li[data-priority="0"],
+.toPrioritize.prioritized:not(.opened) > li.demoted,
+.toPrioritize.prioritized:not(.opened) > li[data-priority="less"] {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+}
+
+.toPrioritize.prioritized.opened,
+.toPrioritize:not(.prioritized){
+	white-space: normal;
+}
+
+.toPrioritize.prioritized.opened li,
+.toPrioritize:not(.prioritized) li{
+	white-space: normal;
+}
+
+.toPrioritize.prioritized.opened > li,
+.toPrioritize.prioritized.opened > li.demoted,
+.toPrioritize:not(.prioritized) > li {
+	width: 75%;
+	height: auto;
+	position: static;
+}
+
+.toPrioritize.prioritized.opened > li[data-priority="more"]{
+	position: absolute;
+	display: none !important;
+}
+
+#gnb{ padding-top: 0px; text-align:center; }
+.toPrioritize a{color:#fff !important; font-size: 20px;}
+.toPrioritize.prioritized.opened, .toPrioritize:not(.prioritized) {
+    white-space: normal;
+    background: #000;
+}   
+.prioMore{
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-left-width: 8px;
+    border-right-width: 8px;
+    border-top: 13px solid white;  
+}
+.prioLess{
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-width: 8px;
+    border-left-width: 8px;
+    border-bottom: 13px solid white; 
+    margin: auto; 
+}   
