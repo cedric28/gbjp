@@ -25,9 +25,13 @@ blockquote {
 /*
 	NEW ADDED CSS
 */
+.container-fluid{
+	padding-right: 50px;
+	padding-left: 50px;
+}
 .games{
 	display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     gap: 10px;
 }
 .thumbnail-image{
