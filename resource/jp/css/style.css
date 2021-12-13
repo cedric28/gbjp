@@ -1737,7 +1737,8 @@ button.link-cart::-moz-focus-inner {
 }
 
 .context-dark .unit-bordered > *:not(:last-child)::after, .rd-navbar-dark .unit-bordered > *:not(:last-child)::after, .rd-navbar-darker .unit-bordered > *:not(:last-child)::after, .bg-gray-700 .unit-bordered > *:not(:last-child)::after, .bg-gray-2 .unit-bordered > *:not(:last-child)::after, .bg-gray-4 .unit-bordered > *:not(:last-child)::after, .bg-primary .unit-bordered > *:not(:last-child)::after, .bg-image-dark .unit-bordered > *:not(:last-child)::after {
-	background: rgba(255, 255, 255, 0.16);
+	background: linear-gradient(#BF953F,#FCF6BA, #B38728,#FBF5B7,#AA771C);
+	
 }
 
 /*
