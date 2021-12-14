@@ -14031,7 +14031,7 @@ html [class*='section-'].section-bottom-0 {
 }
 
 .bg-gradient-gold{
-	background-image: linear-gradient(to bottom,#C6AB7F,#D6C3A2,#F2ECDC);
+	background-image: linear-gradient(180deg,#FCF3DB 0%,#D6C3A2 25%,#CB9443 100%);
 }
 
 .bg-gray-100 {
