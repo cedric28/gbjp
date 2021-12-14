@@ -93,6 +93,48 @@ blockquote {
     -webkit-text-fill-color: transparent;
 }
 
+
+/* Added CSS for search field */
+.rd-navbar-search .rd-search .form-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    align-items: center;
+}
+
+.rd-navbar-search .rd-search .form-wrap label {
+    background: #624319;
+    color: #ffffff !important;
+    width: calc(100% - 75%);
+    padding: 10px;
+    min-height: 50px;
+	text-align: center;
+}
+
+.rd-navbar-search .rd-search #rd-navbar-search-form-input {
+    background: #a36918;
+    border-radius: 0;
+    border: unset;
+    color: #ffffff;
+}
+
+/* Adjusted Banner */
+.material-parallax.parallax {
+    background: url(../images/slotbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70% center;
+    height: 100%;
+    width: 100%;
+}
+
+.live-game .material-parallax.parallax {
+    background: url(../../../resource/livebg.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 55% center;
+}
+
 /*
 	END OF NEW ADDED CSS
 */
@@ -11830,9 +11872,9 @@ footer.footer-creative {
 	opacity: 1;
 }
 
-.player-info-modern:hover .player-info-modern-footer {
+/* .player-info-modern:hover .player-info-modern-footer {
 	background: #520621;
-}
+} */
 
 .player-info-modern:hover .player-info-modern-number {
 	border-color: rgba(255, 255, 255, 0.19);
@@ -24725,13 +24767,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .material-parallax img {
-	display: none;
+	/* display: none; */
 	position: absolute;
 	left: 50%;
 	bottom: 0;
-	min-width: 101%;
-	min-height: 101%;
 	transform: translate3d(-50%, 0, 0);
+	width: 100%;
 }
 
 .parallax-content {
