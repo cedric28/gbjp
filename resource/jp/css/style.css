@@ -8162,7 +8162,7 @@ a.product-button:hover {
 .product-content {
 	padding: 25px;
 	text-align: center;
-	background: linear-gradient(#F8E4AD,#BF923D);
+	background: linear-gradient(180deg,#F8E4AD 0%,#BF923D 100%);
 	/* border: 1px solid #e1e1e1; */
 	border-top: 0;
 }
@@ -11918,7 +11918,7 @@ footer.footer-creative {
 	min-height: 94px;
 	color: #fff;
 	overflow: hidden;
-	background: linear-gradient(#F8E4AD,#BF923D);
+	background: linear-gradient(180deg,#F8E4AD 0%,#BF923D 100%);
 	transition: all .3s;
 	text-align: center;
 	align-items: center;
