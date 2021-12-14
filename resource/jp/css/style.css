@@ -26,8 +26,8 @@ blockquote {
 	NEW ADDED CSS
 */
 .container-fluid{
-	padding-right: 50px;
-	padding-left: 50px;
+	padding-right: 100px;
+	padding-left: 100px;
 }
 
 @media screen and (max-width: 767px)
