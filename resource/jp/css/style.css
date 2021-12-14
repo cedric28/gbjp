@@ -110,7 +110,7 @@ blockquote {
     min-height: 50px;
 	text-align: center;
 }
-@media screen and (max-width: 767px)
+@media screen and (max-width: 1200px)
 {
 	.rd-navbar-search .rd-search .form-wrap label {
 		padding: 5px 2px;
@@ -16169,7 +16169,7 @@ html.tablet .ui-to-top {
 .rd-navbar-fixed .rd-navbar-panel-item-right {
 	text-align: right;
 }
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1200px)
 {
 	.rd-navbar-fixed .rd-navbar-panel-item-right {
 		margin-top: 20px;
