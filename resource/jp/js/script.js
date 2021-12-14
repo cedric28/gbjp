@@ -1819,7 +1819,11 @@
 
 					parallax.css({
 						"background-image": 'url(' + imgPath + ')',
-						"background-size": "cover"
+						"background-size": "cover",
+						"background-position": "55% center",
+						"background-repeat": "no-repeat",
+						"height": "100%",
+						"width": "100%"
 					});
 				}
 			}
