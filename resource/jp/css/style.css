@@ -125,19 +125,21 @@ blockquote {
 
 /* Adjusted Banner */
 .material-parallax.parallax {
-    /* background: url(../images/slotbg.png); */
+    background: url(../images/slotbg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 70% center;
+    background-position: 50% center;
     height: 100%;
     width: 100%;
 }
 
 .live-game .material-parallax.parallax {
-    /* background: url(../../../resource/livebg.png); */
+    background: url(../../../resource/livebg.png);
 	background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% center;
+	height: 100%;
+    width: 100%;
 }
 
 /*
